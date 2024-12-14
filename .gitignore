@@ -1,9 +1,9 @@
-# project
-_site
-.sass-cache
-.vagrant
+# Ruby Gems
+*.gem
 
-# general
-.DS_Store
-Thumbs.db
-ehthumbs.db
+# Design Files
+*.psd
+*.ai
+
+# IntelliJ
+.idea
