@@ -67,6 +67,13 @@
   position: relative;
 }
 /*
+ Disabled state
+ ========================================================================== */
+.staticman-comments input[disabled][disabled], .staticman-comments textarea[disabled], .staticman-comments input[readonly][readonly], .staticman-comments textarea[readonly] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+/*
  Focus & active state
  ========================================================================== */
 .staticman-comments input:focus, .staticman-comments textarea:focus {
@@ -81,10 +88,10 @@
 /*
  Help text
  ========================================================================== */
-.staticman-comments .form-text {
+.staticman-comments .help-block {
   color: #898c8e;
 }
-.staticman-comments .form-text {
+.staticman-comments .help-block {
   display: block;
   margin-bottom: 1em;
   line-height: 1em;
