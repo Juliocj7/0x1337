@@ -1,10 +1,8 @@
 ---
 
-# INTRODUCCIÓN A NEOVIM
+# NEOVIM
 
-· Aumenta tu productividad al programar
-
-· Un editor es nuestra herramienta
+• Un editor es nuestra herramienta
 principal al momento de escribir código. 
 
 ---
@@ -20,14 +18,6 @@ _Un IDE no es un editor, sino.._
 En Spanish: Ambiente de Desarrollo Integrado.
 
 En Español: Un conjunto de herramientas para desarrollar.
-
----
-
-# Antes de empezar...
-
-- ¿En qué lenguajes programas frecuentemente?
-  - _O escribes en general_
-- ¿Qué editor o IDE usas para hacerlo?
 
 ---
 
@@ -91,8 +81,7 @@ Otras razones...
 # No para todos
 
 Es para ti si...
-- Ere de hacer todo en la terminal
-- Te gusta hacer las cosas desde _scratch_
+- Eres de hacer todo en la terminal
 - Te gusta leer toda documentación de lo que usas
 
 No es para ti si...
@@ -145,11 +134,7 @@ y es divertido tener algo nuevo que aprender cada día.
 
 ---
 
-
-> A nice looking website, that’s one thing Neovim did right.
-
-                                                                — Bram Moolenaar
-
+> Un sitio web atractivo, eso es algo que Neovim hizo bien.
 
 -  https://www.vim.org
 -  https://neovim.io/
@@ -167,40 +152,20 @@ y es divertido tener algo nuevo que aprender cada día.
 
 ---
 
-# Instalación
+# Bienvenid@ a Neovim 
 
 ## Guía oficial
 
-- https://github.com/neovim/neovim/wiki/Installing-Neovim
-  - Binarios para Windows y Mac
-  - Appimage
-  - Administrador de paquetes de tu distro
+- https://github.com/neovim/neovim/wiki
 
----
-
-# Bienvenid@ a Neovim 
-
-·                                    $ nvim
+> Verificar que algo salió bien con :checkhealth
 
 ---
 
 # Quiero salir de aquí
 
-> Espero que no sea salir de la meetup...
-
 `:q`       ->       Salir
 `:q!`      ->       Salir, ¡yo sé lo que hago!
-
----
-
-# Dependencias adicionales
-
-- Proveedor de porta-papeles (recomendado)
-- Interfaz de Python (recomendado)
-- Interfaz de Ruby (opcional)
-- Interfaz de Node.js (opcional)
-
-> Verificar que todo salió bien con :checkhealth
 
 ---
 
@@ -221,18 +186,11 @@ Un lugar para cada cosa
 
 # Moviéndose por el editor
 
-`$ nvim examples/texto/consejo-de-una-oruga.txt`
+`k`  ->  ↑
+`h`  ->  ←
+`l`  ->  →
+`j`  ->  ↓
 
-```
-                                       ↑
-                                       k
-                                   ← h   l →
-                                       j
-                                       ↓
-```
-
-Teclado en el que se hizo vi
--  https://en.wikipedia.org/wiki/File%3AKB_Terminal_ADM3A.svg
 ---
 
 # Más formas de moverse
