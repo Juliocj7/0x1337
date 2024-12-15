@@ -2,8 +2,7 @@
 
 # NEOVIM
 
-• Un editor es nuestra herramienta
-principal al momento de escribir código. 
+> Verificar que algo salió bien con :checkhealth
 
 ---
 
@@ -57,7 +56,7 @@ _No está bien_ hacerlo, pero...
 Otras razones...
 
 - No vas a ser parte de estos números
-  -  https://stackoverflow.blog/2017/05/23/stack-overflow-helping-one-million-developers-exit-vim/
+  - https://stackoverflow.blog/2017/05/23/stack-overflow-helping-one-million-developers-exit-vim/
 - Te verás muy _cool_ entre tus amigos 😎
 
 ---
@@ -89,8 +88,6 @@ No es para ti si...
 - No te gusta tomarte mucho tiempo configurando/aprendiendo algo
 - No te gusta leer documentación muy extensa
 
-¡Y todas las cosas mencionadas están bien!
-
 ---
 
 # ¿Por qué es tan difícil de aprender?
@@ -102,8 +99,7 @@ No es para ti si...
 
 Vim es muuuuuy extenso, es mejor aprenderlo de poco a poco.
 
-Yo aún lo estoy aprendiendo,
-y es divertido tener algo nuevo que aprender cada día.
+Aún lo estoy aprendiendo, y es divertido tener algo nuevo que aprender cada día.
 
 ---
 
@@ -136,8 +132,8 @@ y es divertido tener algo nuevo que aprender cada día.
 
 > Un sitio web atractivo, eso es algo que Neovim hizo bien.
 
--  https://www.vim.org
--  https://neovim.io/
+- https://www.vim.org
+- https://neovim.io
 
 ---
 
@@ -150,15 +146,11 @@ y es divertido tener algo nuevo que aprender cada día.
 - Soporte directo para ser embebido
 - Compatiblidad con la mayor parte de plugins de Vim
 
----
-
-# Bienvenid@ a Neovim 
+--- 
 
 ## Guía oficial
 
 - https://github.com/neovim/neovim/wiki
-
-> Verificar que algo salió bien con :checkhealth
 
 ---
 
@@ -181,26 +173,6 @@ Un lugar para cada cosa
     - Presionar `v` para entrar
 
 > Para volver al modo Normal o si te perdiste, presiona <esc>.
-
----
-
-# Moviéndose por el editor
-
-`k`  ->  ↑
-`h`  ->  ←
-`l`  ->  →
-`j`  ->  ↓
-
----
-
-# Más formas de moverse
-
-`w`  ->  Palabra (word)
-`b`  ->  Palabra hacia atrás (back)
-`^`  ->  Inicio de la línea
-`$`  ->  Final de la línea
-`<C-e>` -> Scroll
-`<C-y>` -> Scroll
 
 ---
 
@@ -263,8 +235,6 @@ Para usar el porta-papeles de tu S.O antepon `"+` a tu comando.
 - `"+d`
 - `"+p`
 
-> Luego veremos una manera de ahorrarnos esas teclas extras.
-
 ---
 
 # Deshacer y Rehacer (Ctrl-z)
@@ -308,7 +278,6 @@ Cerrar el buffer actual: `:bdelete`
 - Ingresa la palabra a buscar y presiona <enter>.
 - Muévete a la siguiente o anterior coincidencia con `n` y `N`.
 - Puedes buscar en la misma línea presionando `f` y luego una letra.
-
 
 > También puedes buscar en reversa con `?`.
 > La búsqueda soporta expresiones regulares.
@@ -380,9 +349,7 @@ Debemos siempre usarlos con un _modificador_: Dentro (`i`), todo (`a`).
 
 # No te repitas
 
-Principio DRY, el comando `.`
-
-Repite la última acción.
+Principio DRY (Don't Repeat Yourself), el comando `.` repite la última acción.
 
 ---
 
@@ -413,8 +380,6 @@ Podemos hacer que Neovim las cargue cada vez que inicia.
 Agregamos nuestras configuraciones (sin escribir los `:`).
 Para ver los cambios: `:so ~/.config/nvim/init.vim`.
 
--  http://bit.ly/primer-initvim
-
 ---
 
 # Mappings
@@ -428,8 +393,6 @@ Podemos definir shortcuts (mappings) en nuestro init.vim
 nnoremap <C-s> :write<CR>
 ```
 
--  http://bit.ly/nvim-mappings
-
 ---
 
 # Plugins
@@ -441,8 +404,6 @@ nnoremap <C-s> :write<CR>
 - Los plugins de Vim son compatibles con Neovim, pero
   trata de buscar si existe una alternativa que haga uso
   de las características de Neovim.
-- Guía y lista de plugins
-  -  http://bit.ly/nvim-plugins
 
 ---
 
@@ -461,6 +422,8 @@ no te atreverías a abandonar tu actual editor o IDE?
     - Eclipse + Vrapper
 
 ---
+
+# Cheatsheet
 
             .o/       /o.                
           .oyyhs      /yyo.                      
@@ -487,25 +450,23 @@ no te atreverías a abandonar tu actual editor o IDE?
 
 Movimiento del cursor: Teclas de flecha o `hjkl`
 
-```
-h     l
-left  right
+`k`  ->  ↑ up
+`h`  ->  ← left
+`l`  ->  → right
+`j`  ->  ↓ down
 
-j     k
-down  up
-```
-
----
+`^`  ->  Inicio de la línea
+`$`  ->  Final de la línea
+`<C-e>` -> Scroll
+`<C-y>` -> Scroll
 
 * `w` - saltar a la siguiente palabra antes de la puntuación
 * `W` - saltar a la siguiente palabra
 * `b` - saltar a la palabra anterior antes de la puntuación
 * `B` - saltar a la palabra anterior
 
---
-
 * `gg` - saltar al inicio/comienzo del archivo
-* `G` - saltar al final del archivo (eof)
+* `G`  - saltar al final del archivo (eof)
 
 --
 
