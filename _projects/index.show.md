@@ -1,11 +1,3 @@
----
-
-# NEOVIM
-
-> Verificar que algo salió bien con :checkhealth
-
----
-
 # Editor vs IDE
 
 _Un IDE no es un editor, sino.._
@@ -538,3 +530,7 @@ La barra lateral debe estar enfocada. Si se cierra accidentalmente, ejecute `:Nv
 * `g?` - Activar o desactivar ayuda
 * `a` - Crea un nuevo archivo
 * Agregue un `/` adicional para crear un directorio
+
+--
+
+> Verificar que algo salió bien o mal con `:checkhealth`
