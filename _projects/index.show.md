@@ -1,34 +1,11 @@
 ---
 
+# INTRODUCCIÓN A NEOVIM
 
-#                           INTRODUCCIÓN A NEOVIM
+· Aumenta tu productividad al programar
 
-·                   Aumenta tu productividad al programar 
-
-
-                                      ···
-
-·                  _Santos Gallegos_  _santos_g@outlook.com_
-                                 _@stsewd_  
-
-
-
-
----
-
-# ¿Por qué una meetup sobre Neovim?
-
-**¡Porque es lo que me gusta!**
-
-Un editor es nuestra herramienta
+· Un editor es nuestra herramienta
 principal al momento de escribir código. 
-
-En el futuro ya les hablaré de cosas más _interesantes_.
-
-
-
-
-
 
 ---
 
@@ -44,8 +21,6 @@ En Spanish: Ambiente de Desarrollo Integrado.
 
 En Español: Un conjunto de herramientas para desarrollar.
 
-
-
 ---
 
 # Antes de empezar...
@@ -53,14 +28,6 @@ En Español: Un conjunto de herramientas para desarrollar.
 - ¿En qué lenguajes programas frecuentemente?
   - _O escribes en general_
 - ¿Qué editor o IDE usas para hacerlo?
-
-
-
-
-
-
-
-
 
 ---
 
@@ -77,7 +44,6 @@ _No está bien_ hacerlo, pero...
 - ¿Realmente me está ayudando?
   - ¿Tal vez me está ayudando demasiado?
 
-
 ---
 
 # ¿Qué es Vim?
@@ -87,29 +53,6 @@ _No está bien_ hacerlo, pero...
   - Que a su vez fue una mejora de otros editores
   - La fecha en la que _nació_ es importante
 - Interfaz basada en texto
-
-
-
-
-
-
-
----
-
-# ¿Por qué debería aprender Vim en 2018?
-
-Aún es el editor más usado por desarrollador@s.
-
-- Developer Skills Report (Hackerrank - 2018)
-  -  https://research.hackerrank.com/developer-skills/2018/#insight6
-
-- Developer Survey Results (Stackoverflow - 2017)
-  -  https://insights.stackoverflow.com/survey/2017#technology-most-popular-developer-environments-by-occupation
-
-
-
-
-
 
 ---
 
@@ -173,8 +116,6 @@ Vim es muuuuuy extenso, es mejor aprenderlo de poco a poco.
 Yo aún lo estoy aprendiendo,
 y es divertido tener algo nuevo que aprender cada día.
 
-
-
 ---
 
 # ¿Cómo va a aumentar mi productividad?
@@ -185,11 +126,6 @@ y es divertido tener algo nuevo que aprender cada día.
   - No más tareas tediosas
 - Altamente configurable
   - Un editor hecho a tu medida y necesidades
-
-
-
-
-
 
 ---
 
@@ -210,14 +146,9 @@ y es divertido tener algo nuevo que aprender cada día.
 ---
 
 
-
-
-
 > A nice looking website, that’s one thing Neovim did right.
 
                                                                 — Bram Moolenaar
-
-
 
 
 -  https://www.vim.org
@@ -234,27 +165,6 @@ y es divertido tener algo nuevo que aprender cada día.
 - Soporte directo para ser embebido
 - Compatiblidad con la mayor parte de plugins de Vim
 
-
-
-
-
-
----
-
-
-#                   Hora de poner las manos sobre el teclado
-
-
-·                         Seguiremos la siguiente guía
-
-·                          http://bit.ly/neovim-guia
-
-·                         Descargar el siguiente repo
-
-·                          http://bit.ly/neovim-repo
-
-
-
 ---
 
 # Instalación
@@ -266,26 +176,11 @@ y es divertido tener algo nuevo que aprender cada día.
   - Appimage
   - Administrador de paquetes de tu distro
 
-
-
-
-
-
 ---
 
 # Bienvenid@ a Neovim 
 
-
-
-
-
 ·                                    $ nvim
-
-
-
-
-
-
 
 ---
 
@@ -296,13 +191,6 @@ y es divertido tener algo nuevo que aprender cada día.
 `:q`       ->       Salir
 `:q!`      ->       Salir, ¡yo sé lo que hago!
 
-
-
-
-
-
-
-
 ---
 
 # Dependencias adicionales
@@ -311,11 +199,6 @@ y es divertido tener algo nuevo que aprender cada día.
 - Interfaz de Python (recomendado)
 - Interfaz de Ruby (opcional)
 - Interfaz de Node.js (opcional)
-
-
-
-
-
 
 > Verificar que todo salió bien con :checkhealth
 
@@ -333,7 +216,6 @@ Un lugar para cada cosa
     - Presionar `v` para entrar
 
 > Para volver al modo Normal o si te perdiste, presiona <esc>.
-
 
 ---
 
@@ -362,26 +244,12 @@ Teclado en el que se hizo vi
 `<C-e>` -> Scroll
 `<C-y>` -> Scroll
 
-
-
-
-
-
 ---
 
 # Escribir
 
 - Lo hacemos en el modo insertar `i`
   - La mayoría de las teclas funcionan como esperas aquí
-
-
-
-
-
-
-
-
-
 
 ---
 
@@ -393,11 +261,6 @@ no necesariamente editar texto.
 - Se ingresa desde el modo normal con `:`.
 - Escribimos el comando (podemos autocompletar con <tab>)
 - Ejecutar el comando con <enter>
-
-
-
-
-
 
 ---
 
@@ -429,8 +292,6 @@ Entra al modo visual con `v`
   `d` para cortar.
 - Pega desde el modo normal con `p`.
 
-
-
 ---
 
 # El porta-papeles
@@ -444,7 +305,6 @@ Para usar el porta-papeles de tu S.O antepon `"+` a tu comando.
 - `"+d`
 - `"+p`
 
-
 > Luego veremos una manera de ahorrarnos esas teclas extras.
 
 ---
@@ -456,13 +316,6 @@ Para usar el porta-papeles de tu S.O antepon `"+` a tu comando.
 - Presiona `u` para deshacer (undo)
 - Presiona <C-r> para rehacer (redo)
 
-
-
-
-
-
-
-
 ---
 
 # Autocompletado
@@ -472,12 +325,6 @@ inicio de una palabra y presiona <C-p> o <C-n>
 para iterar sobre las sugerencias.
 
 También podemos completar archivos con <C-x><C-f>
-
-
-
-
-
-
 
 ---
 
@@ -505,9 +352,6 @@ Cerrar el buffer actual: `:bdelete`
 - Puedes buscar en la misma línea presionando `f` y luego una letra.
 
 
-
-
-
 > También puedes buscar en reversa con `?`.
 > La búsqueda soporta expresiones regulares.
 
@@ -522,10 +366,6 @@ Puedes buscar ayuda desde Neovim
 - Con tutorial incluido `:Tutor`
 - ¿Cuál es el significado de la vida, el universo y todo lo demás?
   - `:help 42`
-
-
-
-
 
 ---
 
@@ -542,7 +382,6 @@ Nuevos: `gg`, `G`
 
 > Funcionan en conjunto con los operadores.
 
-
 ---
 
 ## Operadores y movimientos
@@ -552,12 +391,6 @@ Nuevos: `gg`, `G`
 - Seleccionar hasta la segunda `s`: `v2fs`
 - Eliminar 2 líneas: `d2j`
 - Copiar todo el archivo: `ggyG`
-
-
-
-
-
-
 
 ---
 
@@ -572,7 +405,6 @@ Nuevos: `gg`, `G`
 
 Debemos siempre usarlos con un _modificador_: Dentro (`i`), todo (`a`).
 
-
 > Funcionan junto con los operadores
 
 ---
@@ -586,11 +418,6 @@ Debemos siempre usarlos con un _modificador_: Dentro (`i`), todo (`a`).
 - Seleccionar párrafo: `vip`
 - Seleccionar oración (incluidos espacios): `vas`
 
-
-
-
-
-
 ---
 
 # No te repitas
@@ -598,14 +425,6 @@ Debemos siempre usarlos con un _modificador_: Dentro (`i`), todo (`a`).
 Principio DRY, el comando `.`
 
 Repite la última acción.
-
-
-
-
-
-
-
-
 
 ---
 
@@ -621,7 +440,6 @@ Algunas opciones
 
 Todas las opciones
 - `:options`
-
 
 ---
 
@@ -654,7 +472,6 @@ nnoremap <C-s> :write<CR>
 
 -  http://bit.ly/nvim-mappings
 
-
 ---
 
 # Plugins
@@ -668,8 +485,6 @@ nnoremap <C-s> :write<CR>
   de las características de Neovim.
 - Guía y lista de plugins
   -  http://bit.ly/nvim-plugins
-
-
 
 ---
 
