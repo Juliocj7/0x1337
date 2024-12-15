@@ -1,19 +1,11 @@
-This is my personal cheatsheet that I'm building because of my (most-likely) personal hatred towards VIM's community. Thank you vim community for the toxic, unwelcoming, unopenmindedness and egotistical behavior towards newcomers.
+> ADVERTENCIA: ¡La mayoría de los comandos distinguen entre mayúsculas y minúsculas y modificadores!
+> * `w` significa presionar la tecla `W`
+> * `W` significa presionar `SHIFT` y `W` juntas (¡Mayúsculas!)
+> * `^` significa presionar `CTRL` ignorando mayúsculas; `^W` significa `CTRL + w` SIN MAYÚS
 
-I just want to code using a lightweight editor that's matured enough for there to be plugins and not obsess towards the thing that I already can do with VScode but somehow "more optimized" and stuff like *pErSoNaLiZeD DeVeLoPmEnT EnViRoNmEnT*.
+## Conceptos básicos
 
-kickstart.nvim lacks wiki / documentation (Issue #3) while targetting newcomers to `begin your Neovim journey`.
-
-Props to Helix editor to actually have a way better cheatsheet / docs for newcomers but sadly no plugins support yet :(
-
-> WARNING: Most commands are case sensitive and modifier sensitive!
-> * `w` means pressing `W` key
-> * `W` means pressing `SHIFT` and `W` together (Capitalization!)
-> * `^` means pressing `CTRL` ignoring capitalization; `^W` means `CTRL + w` WITHOUT SHIFT
-
-## Basics
-
-Cursor movement: Arrow keys or `hjkl`, preferrably maximalize `hjkl`
+Movimiento del cursor: Teclas de flecha o `hjkl`
 
 ```
 h     l
@@ -25,36 +17,40 @@ down  up
 
 ---
 
-* `w` - jump to next word before punctuation
-* `W` - jump to next word
-* `b` - jump to previous word before punctuation
-* `B` - jump to previous word
+* `w` - saltar a la siguiente palabra antes de la puntuación
+* `W` - saltar a la siguiente palabra
+* `b` - saltar a la palabra anterior antes de la puntuación
+* `B` - saltar a la palabra anterior
 
 --
 
-* `gg` - jump to start / beginning of file
-* `G` - jump to end of file (eof)
+* `gg` - saltar al inicio/comienzo del archivo
+* `G` - saltar al final del archivo (eof)
 
 --
 
-On VISUAL (`v`) or VISUAL-LINE `V` mode
+En modo VISUAL (`v`) o VISUAL-LINE `V`
 * `>` - indent to the right
 * `<` - indent to the left
 
 --
 
 Find / Fuzzy / Regex / Regular Expression
-* `/` - Start finding stuff with Regex, end with Enter
-* `n` - Find next result
-* `N` - Find previous result
+* `/` - Comienza a buscar cosas con Regex, termina con Enter
+* `n` - Buscar el siguiente resultado
+* `N` - Buscar resultado anterior
 
-Replace - Highlight things that want to be replaced using Visual mode then
+Replace: resalte los elementos que desea reemplazar usando el modo Visual y luego
 * `:s/<findterm>/<replaceterm>`
 * `:%s/<findterm>/<replaceterm>/g`
 
-Comentar descomentar varias lineas:
-:g/^#/s   :1,50s/^#/   :1,50s/^/#   :1,50s/^#//   :1,100s/^/# /
-Elimina lineas en blanco:   :g/^$/d
+Comentar descomentar líneas:
+* `:g/^#/s  :1,50s/^#/  :1,50s/^#//   :1,100s/^/# /`
+
+Eliminar líneas en blanco:
+* `:g/^$/d`
+
+--
 
 Folds: ( agrupación de lineas o plegado de código req: foldmethod=manual )
 Plegar: in normal mode or visual mode and select
@@ -62,51 +58,42 @@ Desplegar: in FoldLine -> 2spaces or arrow right
 zf zf2j = create fold            zc zC = close fold
 zo zO   = open fold              zd    = delete fold
 
-•• Modeline opts: (en inicio o final) (:help modeline)
-# vim:ft=sh    ..   " vim: ts=2 sts=2 sw=2 et
+--
+
+Modeline opts: (en inicio o final) (:help modeline)
+*`# vim:ft=sh    ..   " vim: ts=2 sts=2 sw=2 et`
 
 ## Windows
 
-* `^W` then movement keys to focus / highlight different window
+* `^W` y luego las teclas de movimiento para enfocar/resaltar una ventana diferente
 
-* `:sp` or `^W s` to open new window below (split horizontally)
-* `:vsplit` or `^W v` to open new window to the right (split vertically)
+* `:sp` o `^W s` para abrir una nueva ventana a continuación (dividida horizontalmente)
+* `:vsplit` o `^W v` para abrir una nueva ventana a la derecha (dividir verticalmente)
 
 --
 
-Note, you can prefix these with numbers
-* `^W >` - enlarges window size
-* `^W <` - make window size smaller
-* ??? - minimize window (idt its even possible)
+Tenga en cuenta que puede anteponerles números.
+* `^W >` - amplía el tamaño de la ventana
+* `^W <` - hace que el tamaño de la ventana sea más pequeño
+* ??? - minimizar ventana (si es que es posible)
+
+--
 
 ## File / Word Finder (Telescope)
 
-`:Telescope find_files` = `<Space> sf` Search files
-`:Telescope ` = `<Space> sg` Search grep
-
+`:Telescope find_files` = `<Space> sf` Buscar archivos
+`:Telescope` = `<Space> sg` Buscar grep
 
 ## Embedded terminal
 
-TBH just spawn a new tab / new window on your native terminal. Its not worth it.
+Cree una nueva ventana, ejecute `:terminal` y luego ingrese al modo Insertar.
+Para hacer que la terminal deje de consumir su entrada, cambie a otra ventana o `CTRL + \` `CTRL + N`
 
-Make a new window, run `:terminal` then enter Insert mode.
-To make the terminal stop eating your input, switch to another window or `CTRL + \` `CTRL + N`
-
-## LSP - Intellisense, Language Server, etc
-
-* `<SPACE>rn` - Rename Symbol, VSCode's F2 (`vim.lsp.buf.rename`)
-* `<SPACE>ca` - Code Action, VSCode's CTRL + `.` (`vim.lsp.buf.code_action`)
-* `<SPACE>e` - Show errors / warning / diagnostics / codelens pop up on cursor (`vim.diagnostic.open_float`)
-* `<SPACE>q` - List all errors / diagnostic / warning / codelens on bottom | VSCode's Problems panel (`vim.diagnostic.setloclist`)
-* `gd` - Go to Definition (`vim.lsp.buf.definition`)
-* `gr` - Go to References (`require('telescope.builtin').lsp_references`)
-* `K` - Show hover information (`vim.lsp.buf.hover`) 
-* `gcc` - Go Comment Line
-* `gcb` - Go Comment Block - Try this if you're on React / Astro
+--
 
 ### nvim-tree - File tree sidebar
 
-Sidebar would need to be focused. If accidentally closed, run `:NvimTreeOpen`
-* `g?` - Toggle help
-* `a` - Create new file
-  * Append an extra `/` to create a directory
+La barra lateral debe estar enfocada. Si se cierra accidentalmente, ejecute `:NvimTreeOpen`
+* `g?` - Activar o desactivar ayuda
+* `a` - Crea un nuevo archivo
+* Agregue un `/` adicional para crear un directorio
