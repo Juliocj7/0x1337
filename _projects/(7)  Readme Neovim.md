@@ -1,3 +1,11 @@
+---
+name: Meovimmm
+tools: [tip, pepe]
+image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
+description: este es your awesome project xD!
+---
+
+
 # Editor vs IDE
 
 _Un IDE no es un editor, sino.._
