@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Proyecto 1"
+---
+
 # Capítulo 00: Lee esto primero
 
 ## Por qué se ha escrito esta guía
