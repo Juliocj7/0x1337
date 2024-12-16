@@ -1,6 +1,4 @@
 ---
-layout: default
-title: "Lee esto primero"
 ---
 
 # Capítulo 00: Lee esto primero
