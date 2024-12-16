@@ -37,6 +37,8 @@
   <!-- Local Projects -->
   {% for project in site.projects %}
 
+  {% unless project.hidden %}
+
     {%- assign project_type  = "local" -%}
     {%- assign project_id    = project.name | slugify -%}
     {%- assign project_img   = project.image -%}
@@ -53,6 +55,8 @@
     {%- endif -%}
 
     {% include projects/project-card.html %}
+
+  {% endunless %}
 
   {% endfor %}
 
