@@ -9,3 +9,15 @@
 - name: Python
   percentage: 70
   color: secondary
+
+- name: JavaScript
+  percentage: 65
+  color: warning
+
+- name: C/C++/C#
+  percentage: 85
+  color: light
+
+- name: Java/Kotlin
+  percentage: 95
+  color: dark

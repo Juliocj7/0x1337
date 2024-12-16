@@ -100,3 +100,13 @@ bluesky:
   url   : https://bsky.app/profile/
   icon  : fab fa-bluesky
   color : 0085FF
+
+telegram:
+  url   : https://t.me/
+  icon  : fab fa-telegram
+  color : 00d7ff
+
+whatsapp:
+  url   : https://wa.me/
+  icon  : fab fa-whatsapp
+  color : afff00

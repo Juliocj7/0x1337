@@ -1,8 +1,8 @@
 ---
 name: Learning Vim
 tools: [vim, neovim, simplythebest]
-image: https://raw.githubusercontent.com/raven2cz/public-wallpapers/refs/heads/main/00016-wallhaven-r28dm7.jpg
-description: Aprender a usar el editor vim y su lenguaje de programación vimscript no tiene porque ser difícil.
+image: https://raw.githubusercontent.com/0xsimplythebest/wallpapers/refs/heads/main/01/02.jpg
+description: Aprender a usar el editor vim y su lenguaje de programación no tiene porque ser difícil.
 ---
 
 # Tabla de contenido
