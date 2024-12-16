@@ -7,7 +7,7 @@ description: este es your neovimm project 2 xD!
 
 # Tabla de contenido
 
-* [README](README)
+* [Prólogo](prologo-inicial)
 * [Lee esto primero](cap00-lee-esto-primero)
 * [Capítulo 1: Ejecutando Vim](cap01-empezando-en-vim)
 * [Capítulo 2: Buffers, ventanas y pestañas](cap02-buffers-ventanas-pestanas)
@@ -39,3 +39,7 @@ description: este es your neovimm project 2 xD!
 * [Capítulo 28: Variables de Vimscript y su ámbito](cap28-ambito-variables-vimscript)
 * [Capítulo 29: Funciones en Vimscript](cap29-funciones-vimscript)
 * [Capítulo 30: Ejemplo de cómo escribir tu propio complemento en Vim](cap30-ejemplo-cómo-escribir-un-complemento)
+
+<p class="text-center">
+  {% include elements/button.html link="https://t.me/juliocj7#simplythebest" text="Contacto" %}
+</p>
