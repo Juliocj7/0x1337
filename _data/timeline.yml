@@ -1,17 +1,17 @@
-- title: Student, Harvard CS
-  from: 2014
-  to: 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-- title: Software Engineer, Google, UK
+- title: Student, Institute of Technology SC
   from: 2018
+  to: 2023
+  description: Durante mi formación, adquirí sólidos conocimientos en diversas áreas relacionadas
+               con la programación, la tecnología y la innovación. Mi educación me permitió
+               desarrollar habilidades técnicas y analíticas que aplico tanto en proyectos personales
+               como profesionales. A lo largo de estos años, me he mantenido motivado por el aprendizaje
+               continuo y la búsqueda de nuevas oportunidades para crecer en el campo tecnológico.
+
+- title: Software Engineer Elite BO
+  from: 2023
   to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: Tras terminar mis estudios en el instituto, decidí seguir mi camino hacia la ingeniería
+               de software, un campo que me apasiona profundamente. Mi objetivo es seguir aprendiendo y
+               perfeccionando mis habilidades para convertirme en un ingeniero de software altamente capacitado.
+               Me comprometo a dar lo mejor de mí en cada proyecto y a mantenerme en constante evolución dentro
+               de este emocionante mundo tecnológico.
