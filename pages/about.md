@@ -7,8 +7,11 @@ weight: 3
 
 # **About Me**
 
-Hi I am **{{ site.author.name }}** :wave:,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+¡Hola! soy **{{ site.author.name }}** :wave:,<br>
+Un apasionado de la programación y un entusiasta del software libre. Me encanta explorar nuevas tecnologías, especialmente en el mundo de Linux y
+herramientas como Termux en Android, que me permiten llevar la potencia de la terminal a cualquier parte. Mi curiosidad me lleva a investigar constantemente en
+áreas como CTF (Capture the Flag) y hacking, siempre buscando maneras de mejorar mis habilidades en ciberseguridad y de entender mejor cómo funcionan los sistemas.
+Mi curiosidad infinita me impulsa a aprender continuamente, siempre buscando nuevos retos, tanto en el ámbito tecnológico como en mi vida personal.
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}

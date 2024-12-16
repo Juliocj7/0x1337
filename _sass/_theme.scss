@@ -8,8 +8,16 @@
   }
 }
 
+/*
 #theme-toggler:before {
   @include themed(content, "🌙", "🌞");
+}
+*/
+
+#theme-toggler:before {
+  @include themed(content, "\f186", "\f185");
+  font-family: "Font Awesome 6 Free"; /* Establecer la familia de iconos Font Awesome */
+  font-weight: 900; /* Font Awesome usa peso 900 para los iconos */
 }
 
 .navbar-themed {
