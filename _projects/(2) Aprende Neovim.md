@@ -1,7 +1,7 @@
 ---
-name: Aprende Vim
+name: Learning Vim
 tools: [vim, neovim, simplythebest]
-image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
+image: https://github.com/raven2cz/public-wallpapers/blob/main/00001-GUWEIZ-mage.jpg
 description: Aprender a usar el editor vim y su lenguaje de programación vimscript no tiene porque ser difícil.
 ---
 
