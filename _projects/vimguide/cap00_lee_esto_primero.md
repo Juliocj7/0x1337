@@ -1,9 +1,4 @@
 ---
-name: Cursisho neovim 3 xD
-tools: [vim, neovim, simplythebest]
-image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
-description: este es your neovimm project 3 xD!
-hidden: true
 ---
 
 # Capítulo 00: Lee esto primero
