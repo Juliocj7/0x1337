@@ -9,6 +9,10 @@ description: este es your neovimm project 2 xD!
 
 * [README](README.md)
 * [Lee esto primero](vimguide/cap00_lee_esto_primero)
+* [Lee esto primero](vimguide/cap00_lee_esto_primero.md)
+* [Lee esto primero](cap00_lee_esto_primero)
+* [Lee esto primero](cap00_lee_esto_primero.md)
+
 * [Capítulo 1: Ejecutando Vim](cap01_empezando_en_vim.md)
 * [Capítulo 2: Buffers, ventanas y pestañas](cap02_buffers_ventanas_pestanas.md)
 * [Capítulo 3: Buscar archivos](cap03_abriendo_y_buscando_archivos.md)
