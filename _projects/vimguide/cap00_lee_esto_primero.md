@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Proyecto 1"
+title: "Lee esto primero"
 ---
 
 # Capítulo 00: Lee esto primero
