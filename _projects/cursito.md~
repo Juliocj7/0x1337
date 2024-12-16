@@ -7,7 +7,7 @@ description: este es your neovimm project 2 xD!
 
 # Tabla de contenido
 
-* [Prólogo](prologo-inicial)
+* [README](README)
 * [Lee esto primero](cap00-lee-esto-primero)
 * [Capítulo 1: Ejecutando Vim](cap01-empezando-en-vim)
 * [Capítulo 2: Buffers, ventanas y pestañas](cap02-buffers-ventanas-pestanas)
