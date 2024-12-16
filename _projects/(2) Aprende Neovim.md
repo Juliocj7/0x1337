@@ -1,8 +1,8 @@
 ---
-name: Cursisho neovim 2 xD
+name: Aprende Vim
 tools: [vim, neovim, simplythebest]
 image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
-description: este es your neovimm project 2 xD!
+description: Aprender a usar el editor Vim y su lenguaje de programación Vimscript no tiene porque ser difícil.
 ---
 
 # Tabla de contenido
