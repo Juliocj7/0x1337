@@ -12,7 +12,7 @@
       {%- assign html_pages = site.html_pages | sort: 'weight' -%}
       {%- assign filtered_pages = "" | split: "" -%}
 
-      {%- for html_page in html_pages -%} 
+      {%- for html_page in html_pages -%}
 
         {%- assign exclude = false -%}
 
@@ -37,7 +37,7 @@
 
       {%- endfor -%}
 
-      {% for html_page in filtered_pages %}  
+      {% for html_page in filtered_pages %}
 
         {%- if page.url contains html_page.url -%}
           {%- assign active_status = "active" -%}
