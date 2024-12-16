@@ -2,7 +2,7 @@
 name: Aprende Vim
 tools: [vim, neovim, simplythebest]
 image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
-description: Aprender a usar el editor Vim y su lenguaje de programación Vimscript no tiene porque ser difícil.
+description: Aprender a usar el editor vim y su lenguaje de programación vimscript no tiene porque ser difícil.
 ---
 
 # Tabla de contenido
