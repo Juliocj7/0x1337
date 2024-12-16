@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Capítulo 6: El modo insertar
 
 El modo insertar es el modo predeterminado de la mayoría de los editores de texto. En este modo, lo que escribes es lo que aparece en la pantalla.

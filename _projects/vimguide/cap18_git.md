@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Capítulo 18: Git
 
 Vim y git son dos grandes herramientas para dos cosas diferentes. Git es una herramienta para el control de versiones. Vim es un editor de texto.

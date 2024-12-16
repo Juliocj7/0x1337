@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Capítulo 27: Condicionales y bucles en Vimscript
 
 Después de aprender cuales son los tipos básicos de datos que existen en Vimscript, el siguiente paso es aprender cómo combinarlos para empezar a escribir un programa básico. Un programa básico consiste en condicionales y bucles.

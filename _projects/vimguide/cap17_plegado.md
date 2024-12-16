@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Capítulo 17: Plegado de texto \(Fold\)
 
 Cuando lees un archivo, a menudo hay mucho texto irrelevante que te impide entender lo que realiza ese archivo. Para ocultar ese _ruido_ innecesario, utiliza el plegado de texto que ofrece Vim \(Vim Fold\).

@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Capítulo 3: Buscar archivos
 
 El objetivo de este capítulo es aprender cómo buscar rápidamente en Vim. Ser capaz de buscar rápidamente es una gran manera de aumentar tu productividad en Vim. Cuando aprendí cómo buscar archivos rápidamente, fue cuando hice mi salto a Vim y a utilizarlo a todas horas.

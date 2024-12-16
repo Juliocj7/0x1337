@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Capítulo 16: Etiquetas
 
 Una característica muy útil a la hora de editar texto es poder ser capaz de ir a cualquier definición rápidamente. En este capítulo aprenderás cómo utilizar las etiquetas de Vim para hacer eso.

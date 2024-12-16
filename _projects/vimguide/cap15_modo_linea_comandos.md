@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Capítulo 15: El modo de línea de comandos
 
 En los últimos tres capítulos, aprendiste cómo utilizar los comandos de búsqueda \(`/`, `?`\), sustitución \(`:s`\), el comando global \(`:g`\) y el comando externo \(`!`\). Estos son ejemplos de comandos para la línea de comandos.

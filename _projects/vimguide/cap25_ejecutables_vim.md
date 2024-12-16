@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Capítulo 25: Los ejecutables \(runtime\) de Vim
 
 En capítulos anteriores, he mencionado que Vim busca de manera automática rutas especiales como `pack/` \(capítulo 22\) o `compiler/` \(capítulo 19\) dentro del directorio `~/.vim/`. Estos son ejemplos de rutas de ejecutables de Vim.

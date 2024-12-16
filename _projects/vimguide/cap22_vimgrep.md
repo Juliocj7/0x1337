@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Capítulo 22: Buscar dentro de archivos con Vimgrep
 
 Al comenzar a utilizar Vim, quizás eches en falta un buscador propio de archivos potente que tienen otros entornos de edición o editores. Te vienen a la mente preguntas similares a: "¿Cómo podría buscar todos los archivos que contienen la palabra _echo_? ¿Cómo podría buscar la cadena de texto _const_ solo en los archivos de extensión `.js`?"

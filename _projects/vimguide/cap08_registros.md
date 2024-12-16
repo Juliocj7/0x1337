@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Capítulo 8: Registros
 
 Aprender los registros de Vim es como aprender álgebra por primera vez. No piensas que los necesitas hasta que los necesitas.

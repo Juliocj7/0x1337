@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Operaciones en múltiples archivos
 
 Ser capaz de editar un texto en múltiples archivos a la vez es otra de las funcionalidades útiles de edición. Anteriormente has aprendido cómo actualizar múltiples textos mediante `cfdo`. En este capítulo, aprenderás las diferentes formas con las que puedes editar múltiples archivos en Vim.

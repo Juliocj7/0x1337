@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Capítulo 11: Modo visual
 
 Resaltar texto y aplicar cambios a esa porción de texto es una funcionalidad muy común en muchos editores y procesadores de texto. Vim puede hacer esto utilizando el modo visual. En este capítulo, aprenderás cómo utilizar el modo visual para manipular textos de manera eficiente.

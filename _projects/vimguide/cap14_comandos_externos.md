@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Capítulo 14: Comandos externos
 
 Dentro del sistema Unix, encontrarás muchos comandos pequeños y muy específicos donde cada uno hace una tarea y la hace eficientemente. Puedes encadenar estos comandos para que funcionen de manera conjunta para dar solución a un problema complejo. ¿No sería genial si pudieras utilizar estos comandos dentro de Vim?

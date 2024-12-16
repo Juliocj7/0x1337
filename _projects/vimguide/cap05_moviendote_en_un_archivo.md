@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Capítulo 5: Moviéndote por un archivo
 
 Al principio, moverte utilizando el teclado te puede parecer algo incómodo e increíblemente lento, ¡pero no desistas! Una vez que te acostumbres, podrás moverte a cualquier parte de un archivo de manera más rápida que utilizando el ratón.

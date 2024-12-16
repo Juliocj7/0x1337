@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Capítulo 19: Compilar
 
 Compilar es un tema importante en muchos lenguajes de programación. En este capítulo, aprenderás cómo compilar desde Vim. También podrás ver formas de sacar partido del comando `:make` de Vim.

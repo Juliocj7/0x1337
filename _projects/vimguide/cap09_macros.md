@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Capítulo 9: Macros
 
 Cuando estás editando archivos, puede que te encuentres repitiendo las mismas acciones. ¿No sería genial si pudieras realizar esas acciones solo una vez y después poder reproducirlas cada vez que lo necesitaras? Gracias a las macros de Vim, puedes grabar tus acciones y almacenarlas dentro de los registros de Vim.

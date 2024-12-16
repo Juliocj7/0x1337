@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Capítulo 2: *Buffers*, ventanas y pestañas
 
 Si has utilizado con anterioridad un editor de texto moderno, probablemente estás familiarizado con las ventanas y las pestañas. Vim tiene tres abstracciones en vez de dos: _buffers_, ventanas y pestañas. En este capítulo veremos qué son y cómo funcionan en Vim los _buffers_, ventanas y pestañas.

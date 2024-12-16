@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Capítulo 12: Buscar y sustituir
 
 Este capítulo trata sobre dos conceptos separados pero relacionados: buscar y sustituir. A menudo cuando estás editando con Vim, necesitas buscar múltiples textos basando esas búsquedas en un patrón que sea su mínimo denominador común. Aprender cómo utilizar expresiones regulares en la búsqueda y sustitución en vez de búsquedas de cadenas literales, hará que seas capaz de localizar cualquier texto rápidamente.

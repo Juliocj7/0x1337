@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 ## Aprende Vim \(de la manera más inteligente\)
 
 ### ¿De qué trata esto?

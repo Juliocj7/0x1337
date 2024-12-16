@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Capítulo 20: Vistas, sesiones y Viminfo
 
 Después de haber trabajado en un proyecto durante un tiempo, puedes encontrar que el proyecto de manera gradual va tomando forma con sus propios ajustes, carpetas, _buffers_, diseños, etc. Es como decorar tu apartamento después de vivir en el durante un tiempo. El problema es, que cuando cierras Vim, pierdes esos cambios. ¿No sería genial si pudieras mantener esos cambios para que la próxima vez que abras Vim, pareciera que nunca lo hubieras cerrado?

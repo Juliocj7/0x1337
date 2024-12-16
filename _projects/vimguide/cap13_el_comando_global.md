@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Capítulo 13: El comando global
 
 Hasta ahora has aprendido cómo repetir el último cambio con el comando del punto \(`.`\), repetir acciones con macros \(`q`\) y almacenar textos en los registros \(`"`\).

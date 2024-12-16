@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Capítulo 10: Deshacer
 
 Todas las personas cometemos todo tipo de errores tipográficos. Es por eso que deshacer es una funcionalidad esencial en cualquier software moderno. El sistema de deshacer de Vim no solo es capaz de deshacer y rehacer errores, también te permite manipular y recuperar texto a través del tiempo. En este capítulo, aprenderás como deshacer y volver a hacer los cambios en tu texto, navegar por una rama de deshacer, deshacer de forma persistente y viajar a través del tiempo.

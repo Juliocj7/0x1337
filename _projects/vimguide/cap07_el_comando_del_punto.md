@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Capítulo 7: El comando del punto
 
 Cuando estás editando un texto, evita todo lo que puedas, volver a hacer lo que ya hiciste. En este capítulo, aprenderás a utilizar el comando del punto para volver a realizar los cambios previos de una manera sencilla. Es el comando más simple y más versátil para reducir las repeticiones.

@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Capítulo 1: Ejecutando Vim
 
 En este capítulo, aprenderás diferentes maneras de ejecutar Vim desde la terminal. He utilizado Vim 8.2 para escribir esta guía. Los comandos escritos deberían funcionar bien si utilizas Neovim o una versión menor de Vim, pero quizás algunos comandos podrían no estar disponibles.

@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Capítulo 28: Variables de Vimscript y su ámbito
 
 Antes de adentrarnos en las funciones de Vimscript, vamos a aprender las diferentes fuentes y ámbitos en los que operan las variables en Vim.
