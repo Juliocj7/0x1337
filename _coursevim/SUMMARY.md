@@ -1,4 +1,4 @@
-# Table of contents
+# Tabla de contenido
 
 * [README](README.md)
 * [Lee esto primero](cap00_lee_esto_primero.md)
