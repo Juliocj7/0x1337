@@ -35,7 +35,7 @@ author:
 # gitlab            : your_username
   instagram         : your_username
 # kaggle            : your_username
-  linkedin          : your_username
+# linkedin          : your_username
 # medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
@@ -44,11 +44,11 @@ author:
 # twitch            : your_username
   twitter           : 0xjuliocj7
 # vimeo             : your_username
-  youtube           : https://youtu.be/dQw4w9WgXcQ
+  youtube           : dQw4w9WgXcQ
 # keybase           : your_username
 # bluesky           : your_username.bsky.social
-telegram            : juliocj7
-whatsapp            : +59179424937
+  telegram          : juliocj7
+  whatsapp          : +59179424937
 
 
 ### Posts ###
