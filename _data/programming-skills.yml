@@ -2,8 +2,8 @@
   percentage: 90
   color: danger
 
-- name: Go
-  percentage: 80
+- name: Java/Kotlin
+  percentage: 95
   color:
 
 - name: Python
@@ -17,7 +17,3 @@
 - name: C/C++/C#
   percentage: 85
   color: light
-
-- name: Java/Kotlin
-  percentage: 95
-  color: dark

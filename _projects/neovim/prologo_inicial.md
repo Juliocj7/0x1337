@@ -69,4 +69,4 @@ La idea que originó todo, fue la de traducir la guía del inglés al español p
 
 ## Licencia y derechos de autor
 
-El materia original en inglés es autoría de [Igor Irianto.](https://github.com/iggredible/Learn-Vim) publicado bajo una licencia [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+El materia original en inglés es autoría de [Igor Irianto.](https://github.com/iggredible/Learn-Vim) publicado bajo una licencia [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/).
