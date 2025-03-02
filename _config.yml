@@ -4,10 +4,10 @@ description         : >-
                       I turn coffee :coffee: into code,
                       use tabs over spaces
                       and never broke production.
-baseurl             : "/VimTunerCj7"            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : Juliocj7/VimTunerCj7      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-#remote_theme        : Juliocj7/VimTunerCj7
-open_new_tab        : true                      # Opens external URLs in new tab (works for posts, projects and navbar only)
+baseurl             : "/0x1337"            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : Juliocj7/0x1337      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+#remote_theme        : Juliocj7/0x1337
+open_new_tab        : true                 # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
 ### Plugins ###
